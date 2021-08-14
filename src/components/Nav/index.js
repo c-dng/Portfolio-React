@@ -1,34 +1,28 @@
-import React from 'react';
+import React from 'react'
 import { NavLink } from 'react-router-dom';
+import { Icon } from 'semantic-ui-react'
 import './nav.scss';
 
 const Nav = () => {
   return(
     <nav className="nav">
-
       <NavLink className="nav__link"
         to="/"
         activeClassName="nav__link--active"
         exact
         >
-        Accueil
+        <Icon name='home' size='large' />
       </NavLink>
 
       <NavLink className="nav__link"
-        to="/realisations"
-        activeClassName="nav__link--active"
-        exact
-        >
-        Réalisations
-      </NavLink>
-
-      <NavLink className="nav__link"
-        to="/about"
+        to="/contact"
         activeClassName="nav__link--active"
         >
-        A propos
+        <Icon name='mail' size='large' />
       </NavLink>
     </nav>
   );
   }
 export default Nav;
+
+

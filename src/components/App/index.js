@@ -2,13 +2,13 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
+
 // == Import
 import Nav from '../Nav';
 import Home from '../Home';
-import Realisations from '../Realisations';
+import Competences from '../Competences';
 import Projets from '../Projets';
 import Contact from '../Contact';
-
 import Footer from '../Footer';
 import './app.scss';
 import './styles/_reset.css';
@@ -23,20 +23,16 @@ const App = () => {
         <Route path="/" exact>
           <Nav />
           <Home />
+          <Projets />
+          <Competences />
           <Footer />
         </Route>
 
-        <Route path="/realisations" exact>
-          <Nav />
-          <Realisations />
-          <Footer />
-        </Route>
-
-        <Route path="/projets" exact>
+        {/* <Route path="/projets" exact>
           <Nav />
           <Projets />
           <Footer />
-        </Route>
+        </Route> */}
 
         <Route path="/contact" exact>
           <Nav />
@@ -44,10 +40,6 @@ const App = () => {
           <Footer />
         </Route>
       </Switch>  
-
-
-
-
 
     </div>
   );

@@ -1,11 +1,15 @@
 .nav {
     overflow: visible;
-    height: 25px;
-    font-size: 1.5em;
+    height: 45px;
+    font-size: 2em;
     background-color: #343A40;
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
+}
+
+a.nav__link {
+    color: white;
 }
 
 a:hover {

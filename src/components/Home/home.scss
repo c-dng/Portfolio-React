@@ -1,10 +1,21 @@
  .home-mainWrapper {
     background-color: #263d36;
-    background-image: url("home.jpg");
+    background-image: url("home3.jpg");
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     line-height: 1.2;
     padding: 10vw 2em;
     text-align: center;
+
+}
+
+
+// coloriser les icônes de la nav
+i.home.large.icon {
+    color: white;
+}
+
+i.mail.large.icon {
+    color: white;
 }

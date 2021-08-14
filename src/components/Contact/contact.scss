@@ -1,4 +1,10 @@
 .contact {
-    display: flex;
-    justify-content: center;
+    // centerage
+    margin: 0 auto;
+    max-width: 50em;
+}
+
+img.contact_image {
+    width: 5em;
+    height: 5em;
 }
