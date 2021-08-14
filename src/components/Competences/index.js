@@ -10,7 +10,7 @@ const Competences = () => (
       <Header.Content>Compétences</Header.Content>
     </Header>
 
-    <ul>
+    <ul className="competences_liste">
       <li>React</li>
       <li>React-Redux</li>
       <li>JavaScript</li>
