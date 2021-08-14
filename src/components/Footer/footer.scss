@@ -1,9 +1,6 @@
 .footer {
     flex-shrink: 1;
-    position:absolute;
-    left:0;
-    bottom:0;
-    right:0;
     justify-content: center;
     font-size: 3em;
+    display: flex;
 }

@@ -7,9 +7,7 @@
     line-height: 1.2;
     padding: 10vw 2em;
     text-align: center;
-
 }
-
 
 // coloriser les icônes de la nav
 i.home.large.icon {
@@ -18,4 +16,19 @@ i.home.large.icon {
 
 i.mail.large.icon {
     color: white;
+}
+
+img.ui.small.circular.image.home_photo{
+    margin: auto;
+}
+
+div.ui.header.home_titleHeader {
+    font-size: 2.5em;
+    color: white;
+}
+
+div.home_description {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 1em;
 }

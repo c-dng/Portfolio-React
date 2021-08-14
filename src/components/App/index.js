@@ -6,8 +6,9 @@ import { Route, Switch } from 'react-router-dom';
 // == Import
 import Nav from '../Nav';
 import Home from '../Home';
-import Competences from '../Competences';
 import Projets from '../Projets';
+import Competences from '../Competences';
+import Cv from '../CV';
 import Contact from '../Contact';
 import Footer from '../Footer';
 import './app.scss';
@@ -25,14 +26,9 @@ const App = () => {
           <Home />
           <Projets />
           <Competences />
+          <Cv />
           <Footer />
         </Route>
-
-        {/* <Route path="/projets" exact>
-          <Nav />
-          <Projets />
-          <Footer />
-        </Route> */}
 
         <Route path="/contact" exact>
           <Nav />

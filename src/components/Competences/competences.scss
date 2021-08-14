@@ -2,6 +2,14 @@
     margin-top: 1.5em;
 }
 
-ul.competences_liste {
+div.competences_front {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.competences_back {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

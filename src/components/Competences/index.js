@@ -1,7 +1,6 @@
 import React from 'react';
-import { Header, Icon, Image } from 'semantic-ui-react'
+import { Header, Icon, Button, Segment } from 'semantic-ui-react'
 import './competences.scss';
-
 
 const Competences = () => (
   <div className="competences">
@@ -9,19 +8,23 @@ const Competences = () => (
       <Icon name='code' circular />
       <Header.Content>Compétences</Header.Content>
     </Header>
+    <Segment className="competences_generales">
 
-    <ul className="competences_liste">
-      <li>React</li>
-      <li>React-Redux</li>
-      <li>JavaScript</li>
-      <li>PHP</li>
-      <li>MySQL</li>
-      <li>HTML 5</li>
-      <li>CSS 3</li>
-      <li>SASS</li>
-      <li>WordPress</li>
-      <li>Bootstrap</li>
-    </ul>
+    <Header size="{large}" as='h3' icon textAlign='center' >Front-End</Header>
+    <div className="competences_front">
+      <Button basic>React</Button>
+      <Button basic>React-Redux</Button>
+      <Button basic>JavaScript</Button>
+      <Button basic>HTML</Button>
+      <Button basic>CSS - SASS</Button>
+    </div>
+
+    <Header size="{large}" as='h3' icon textAlign='center' >Back-End</Header>
+    <div className="competences_back">
+      <Button basic>PHP</Button>
+      <Button basic>SQL</Button>
+    </div>
+  </Segment>
   </div>
 );
 

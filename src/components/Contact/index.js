@@ -1,13 +1,12 @@
 import React from 'react';
 import { Header, Icon, Image, Form } from 'semantic-ui-react'
-import ContactMe from './contact.jpg';
 import './contact.scss';
 
 const Contact = () => (
   <div className="contact">
     <Header as='h2' icon textAlign='center'>
       <Icon name='users' circular />
-      <Header.Content><img className="contact_image" src={ContactMe} alt="projet1" /></Header.Content>
+      <Header.Content>Contactez-moi</Header.Content>
     </Header>
     <Image
       centered

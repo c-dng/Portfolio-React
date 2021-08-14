@@ -2,13 +2,46 @@
     margin-top: 1.5em;
 }
 
+
 ul.projects_itemsWebsite {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+p.projet_name {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 0;
+    background-color: #000000;
+    color: white;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+img.projet_screenshot{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
 img {
     height: 300px;
-    width: 600px; 
+    width: 500px; 
+}
+
+p.projet_linkGithub {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+p.projet_description {
+    display: flex;
+    justify-content: center;
+}
+
+li.projets_margeArtificielle {
+    margin-left: 5em;
 }
