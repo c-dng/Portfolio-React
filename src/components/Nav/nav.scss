@@ -1,11 +1,11 @@
 .nav {
     overflow: visible;
-    height: 50px;
-    font-size: 1em;
-    background-color: rgb(116, 116, 117);
+    height: 25px;
+    font-size: 1.5em;
+    background-color: #343A40;
     color: rgb(255, 255, 255);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 a:hover {

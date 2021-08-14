@@ -2,6 +2,10 @@
 @use 'vars';
 
 html body {
-  font-family: sans-serif;
+  font-family: initial, sans-serif;
   background-color: vars.$dark-grey;
+  line-height: 1.5;
+
 }
+
+

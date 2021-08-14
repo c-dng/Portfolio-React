@@ -1,13 +1,12 @@
 import React from 'react';
-import { Icon } from 'semantic-ui-react'
-
 import './footer.scss';
 
 const Footer = () => (
-    <footer class="footer">
-        Footer
-    </footer>
-
+    <div className="footer"> 
+        <a className="footer-githubLink" href="https://github.com/c-dng">GitHub</a>
+        <a className="footer-linkedInLink" href="https://www.linkedin.com/in/camilleduong/">LinkedIn</a>
+        <a className="footer-contactLink" href="/contact">Contact</a>
+  </div>
 );
 
 export default Footer;

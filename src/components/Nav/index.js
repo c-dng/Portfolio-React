@@ -1,10 +1,11 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom'
-import './nav.scss'
+import { NavLink } from 'react-router-dom';
+import './nav.scss';
 
 const Nav = () => {
   return(
     <nav className="nav">
+
       <NavLink className="nav__link"
         to="/"
         activeClassName="nav__link--active"
@@ -14,25 +15,18 @@ const Nav = () => {
       </NavLink>
 
       <NavLink className="nav__link"
-        to="/competences"
+        to="/realisations"
         activeClassName="nav__link--active"
         exact
         >
-        Compétences
+        Réalisations
       </NavLink>
 
       <NavLink className="nav__link"
-        to="/portfolio"
+        to="/about"
         activeClassName="nav__link--active"
         >
-        Portfolio
-      </NavLink>
-
-      <NavLink className="nav__link"
-        to="/contact"
-        activeClassName="nav__link--active"
-        >
-        Contact
+        A propos
       </NavLink>
     </nav>
   );

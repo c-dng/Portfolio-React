@@ -5,7 +5,7 @@ import { Route, Switch } from 'react-router-dom';
 // == Import
 import Nav from '../Nav';
 import Home from '../Home';
-import Competences from '../Competences';
+import Realisations from '../Realisations';
 import Projets from '../Projets';
 import Contact from '../Contact';
 
@@ -26,9 +26,9 @@ const App = () => {
           <Footer />
         </Route>
 
-        <Route path="/competences" exact>
+        <Route path="/realisations" exact>
           <Nav />
-          <Competences />
+          <Realisations />
           <Footer />
         </Route>
 
