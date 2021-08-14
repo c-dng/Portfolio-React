@@ -1,0 +1,14 @@
+.nav {
+    overflow: visible;
+    height: 50px;
+    font-size: 1em;
+    background-color: rgb(116, 116, 117);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a:hover {
+    background-color: rgb(80, 63, 97);
+    opacity: 0.33;
+  }
