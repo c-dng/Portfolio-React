@@ -18,7 +18,7 @@ const Contact = () => (
           <Form.Input fluid label='Email' placeholder='Email' />
         </Form.Group>
         <Form.TextArea label='Message' placeholder='Votre message...' />
-        <Form.Button>
+        <Form.Button className="contact_boutonValider">
           <Icon name='mail' size='large' />
           Envoyer
         </Form.Button>

@@ -2,7 +2,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-
 // == Import
 import Nav from '../Nav';
 import Home from '../Home';
@@ -11,6 +10,7 @@ import Competences from '../Competences';
 import Cv from '../CV';
 import Contact from '../Contact';
 import Footer from '../Footer';
+import Error from '../Error';
 import './app.scss';
 import './styles/_reset.css';
 import './styles/index.scss';
@@ -19,24 +19,24 @@ import './styles/index.scss';
 const App = () => { 
   return (
     <div className="app">
-
+      <Nav />
       <Switch>
         <Route path="/" exact>
-          <Nav />
           <Home />
           <Projets />
           <Competences />
           <Cv />
-          <Footer />
         </Route>
 
         <Route path="/contact" exact>
-          <Nav />
           <Contact />
-          <Footer />
+        </Route>
+
+        <Route path="*">
+          <Error />
         </Route>
       </Switch>  
-
+      <Footer />
     </div>
   );
 }

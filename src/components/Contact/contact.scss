@@ -3,9 +3,15 @@
     // centerage
     margin: 0 auto;
     max-width: 50em;
+    height: 85%;
 }
 
 img.contact_image {
     width: 5em;
     height: 5em;
+}
+
+div.field.contact_boutonValider {
+    display: flex;
+    justify-content: center;
 }
