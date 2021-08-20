@@ -11,7 +11,7 @@ const Home = () => (
             <div className="home_description">Développeuse Web React</div>
           <Button primary>
             <Icon name='pdf file outline' />
-            <a href="./cv-camille-duong.pdf" download> </a> Télécharger mon CV
+            <a href="./cv-camille-duong.pdf" download> </a> Télécharger mon CV 
           </Button>
 
     </div>
