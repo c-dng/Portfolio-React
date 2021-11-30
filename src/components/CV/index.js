@@ -1,12 +1,10 @@
 import React from 'react';
-import cv from './cv.jpg';
-import { Header, Icon, Image, Step } from 'semantic-ui-react';
+import { Header, Icon, Step } from 'semantic-ui-react';
 import './cv.scss';
 
 const CV = () => (
   <div className="cv">
     <Header size="{large}" as='h2' icon textAlign='center'>
-      <Icon name='file alternate outline' circular />
       <Header.Content>CV</Header.Content>
     </Header>
     
@@ -34,7 +32,7 @@ const CV = () => (
       </Step>
     </Step.Group>
 
-    <Image className="cv_image" src={cv} size='huge' />
+
 
   </div>
 );

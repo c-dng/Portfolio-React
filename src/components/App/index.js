@@ -5,6 +5,7 @@ import { Route, Switch } from 'react-router-dom';
 // == Import
 import Nav from '../Nav';
 import Home from '../Home';
+import Intro from '../Intro';
 import Projets from '../Projets';
 import Competences from '../Competences';
 import Cv from '../CV';
@@ -23,6 +24,7 @@ const App = () => {
       <Switch>
         <Route path="/" exact>
           <Home />
+          <Intro />
           <Projets />
           <Competences />
           <Cv />

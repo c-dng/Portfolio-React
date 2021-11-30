@@ -2,7 +2,7 @@ import React from 'react';
 import Kasu from './front-kasu-desktop.png';
 import Snk from './snk.png';
 
-import { Divider, Grid, Segment, Header, Icon, Image } from 'semantic-ui-react'
+import { Segment, Header, Icon } from 'semantic-ui-react'
 
 import './projets.scss';
 
@@ -10,8 +10,7 @@ const Projets = () => (
   <div className="projets">
 
     <Header as='h2' icon textAlign='center'>
-      <Icon name='book' circular />
-      <Header.Content>Projets</Header.Content>
+      <Header.Content>PROJETS</Header.Content>
     </Header>
 
     <Segment className="contentWorks">

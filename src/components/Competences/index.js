@@ -5,8 +5,7 @@ import './competences.scss';
 const Competences = () => (
   <div className="competences">
     <Header size="{large}" as='h2' icon textAlign='center'>
-      <Icon name='code' circular />
-      <Header.Content>Compétences</Header.Content>
+      <Header.Content>COMPÉTENCES</Header.Content>
     </Header>
     <Segment className="competences_generales">
 
