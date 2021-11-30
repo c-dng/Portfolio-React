@@ -10,10 +10,13 @@ const Projets = () => (
   <div className="projets">
 
     <Header as='h2' icon textAlign='center'>
-      <Header.Content>PROJETS</Header.Content>
+
     </Header>
 
+
     <Segment className="contentWorks">
+
+      <h1>PROJETS </h1>
         <ul className="projects_itemsWebsite">
 
           <li className="projects_itemWebsite">

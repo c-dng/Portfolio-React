@@ -8,7 +8,6 @@ import Home from '../Home';
 import Intro from '../Intro';
 import Projets from '../Projets';
 import Competences from '../Competences';
-import Cv from '../CV';
 import Contact from '../Contact';
 import Footer from '../Footer';
 import Error from '../Error';
@@ -27,7 +26,6 @@ const App = () => {
           <Intro />
           <Projets />
           <Competences />
-          <Cv />
         </Route>
 
         <Route path="/contact" exact>
