@@ -16,7 +16,7 @@ const Intro = () => (
                 Issue d'une reconversion professionnelle, j’ai souhaité m’orienter dans le monde de la tech et d'en faire mon métier.
                 Dans un premier temps en autodidacte, j'ai étudié le HTML et le CSS, puis j'ai décidé de me professionnaliser en suivant la formation O'Clock et ensuite j'ai poursuivi mon apprentissage par une formation sur Python.
             </p>
-            <p>
+            <p className="intro_final">
                 Je continue à apprendre en travaillant sur des projets personnels pour améliorer mes compétences.
             </p>
     </Container>

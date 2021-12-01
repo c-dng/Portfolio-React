@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import images
-import Kasu from './front-kasu-desktop.png';
+import Kasu from './kasu.png';
 import Orecipe from './orecipe.png';
 import Got from './got.png';
 import RandomColor from './randomcolor.png';
@@ -30,8 +30,7 @@ const Projets = () => (
           </Card.Description>
         </Card.Content>
         <Card.Content extra>
-          <Icon name='star' />
-          Front-end (React/Redux) / Back-end (Symfony5, MySQL)
+          #React #Redux #Symfony5 #MySQL
         </Card.Content>
     </Card>
 
