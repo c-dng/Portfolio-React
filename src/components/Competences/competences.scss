@@ -2,7 +2,7 @@
     margin-top: 1em;
 }
 
-img {
+img.competencesimg {
 	width: 100px;
 	height: 100px;
 }
@@ -12,3 +12,8 @@ img {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+li.competencesGenerales_margeArtificielle {
+    margin-left: 2em;
+}
+

@@ -17,14 +17,14 @@ const Competences = () => (
     </Header>
     <Segment className="competencesGenerales">
       <div className="competencesGenerales__logo">
-        <img src={html} alt="html-logo" />
-        <img src={css} alt="css-logo" />
-        <img src={js} alt="js-logo" />
-        <img src={react} alt="react-logo" />
-        <img src={python} alt="python-logo" />     
-        <img src={php} alt="php-logo" />
-        <img src={sql} alt="sql-logo" />
-        <img src={linux} alt="linux-logo" />
+        <img className="competencesimg" src={html} alt="html-logo" />
+        <img className="competencesimg" src={css} alt="css-logo" />
+        <img className="competencesimg"  src={js} alt="js-logo" />
+        <img className="competencesimg"  src={react} alt="react-logo" />
+        <img className="competencesimg"  src={python} alt="python-logo" />  
+        <img className="competencesimg"  src={php} alt="php-logo" />
+        <img className="competencesimg"  src={sql} alt="sql-logo" />
+        <img className="competencesimg"  src={linux} alt="linux-logo" />
       </div>
     </Segment>
   </div>

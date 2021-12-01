@@ -2,44 +2,51 @@ import React from 'react';
 import Kasu from './front-kasu-desktop.png';
 import Snk from './snk.png';
 
-import { Segment, Header } from 'semantic-ui-react'
+import { Segment, Card,  Icon, Image } from 'semantic-ui-react'
 
 import './projets.scss';
 
 const Projets = () => (
+  
   <div className="projets">
+    <Segment >
+      <Card>
+        <Image src={Kasu} a hwrapped ui={false} />
+        <Card.Content>
+          <Card.Header>Kasu </Card.Header>
+          <Card.Meta>
+            <span className='date'>Juillet - Août 2021</span>
+          </Card.Meta>
+          <Card.Description>
+            Site de prêt de mangas entre particuliers,
+            Projet de fin d'études dans le cadre de la formation intensive de Développeur Web Fullstack.
+            L'équipe était composée de 3 développeurs Front-End React.JS et 2 développeuses Back-End Symfony).
+          </Card.Description>
+        </Card.Content>
+        <Card.Content extra>
+          <Icon name='star' />
+            Stack : Front-end (React/Redux) / Back-end (Symfony5, MySQL)
+        </Card.Content>
+      </Card>
 
-    <Header as='h2' icon textAlign='center'>
-
-    </Header>
-
-
-    <Segment className="contentWorks">
-
-      <h1>PROJETS </h1>
-        <ul className="projects_itemsWebsite">
-
-          <li className="projects_itemWebsite">
-            <p className="projet_name">Kasu</p>
-            <a href="https://kasu.surge.sh" target="_bank">
-            <img className="projet_screenshot" src={Kasu} alt="projet1" />
-            </a>
-
-            <p className="projet_description">Pendant 1 mois, j'ai travaillé en équipe (3 front-end + 2 back-end)</p>
-          </li>
-
-
-          <li className="projets_margeArtificielle"></li>
-
-          <li className="projects_itemWebsite">
-            <p className="projet_name">O'Snk</p>
-            <img className="projet_screenshot" src={Snk} alt="projet2" />
-            <p className="projet_description"> Réalisé avec PHP / Bootstrap</p>
-          </li>
-
-      </ul>
-  </Segment>
-
+      <Card>
+        <Image src={Snk} alt="project2" a hwrapped ui={false} />
+        <Card.Content>
+          <Card.Header>O'Snk</Card.Header>
+          <Card.Meta>
+            <span className='date'>Juin 2021</span>
+          </Card.Meta>
+          <Card.Description>
+            Site de basé sur l'univers du manga "Attaque des Titans".
+          </Card.Description>
+        </Card.Content>
+        <Card.Content extra>
+          <Icon name='star' />
+            Stack : PHP / Bootstrap
+        </Card.Content>
+    </Card>
+{/* <li className="projets_margeArtificielle"></li> */}
+    </Segment>
   </div>
 );
 
