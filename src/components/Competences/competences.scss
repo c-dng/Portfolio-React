@@ -1,9 +1,14 @@
 .competences {
-    margin-top: 1.5em;
+    margin-top: 1em;
 }
 
-.competences_generales {
+img {
+	width: 100px;
+	height: 100px;
+}
+
+.competencesGenerales__logo {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
 }

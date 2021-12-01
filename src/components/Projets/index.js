@@ -24,7 +24,7 @@ const Projets = () => (
             <a href="https://kasu.surge.sh" target="_bank">
             <img className="projet_screenshot" src={Kasu} alt="projet1" />
             </a>
-            <p className="projet_linkGithub"><a href="https://github.com/c-dng/kasu-front" target="_bank">Lien GitHub</a></p>
+
             <p className="projet_description">Pendant 1 mois, j'ai travaillé en équipe (3 front-end + 2 back-end)</p>
           </li>
 
@@ -34,7 +34,6 @@ const Projets = () => (
           <li className="projects_itemWebsite">
             <p className="projet_name">O'Snk</p>
             <img className="projet_screenshot" src={Snk} alt="projet2" />
-            <p className="projet_linkGithub"><a href="https://github.com/c-dng/t-snk" target="_bank">Lien GitHub</a></p>
             <p className="projet_description"> Réalisé avec PHP / Bootstrap</p>
           </li>
 
