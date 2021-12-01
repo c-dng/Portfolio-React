@@ -18,12 +18,19 @@ const Competences = () => (
     <Segment className="competencesGenerales">
       <div className="competencesGenerales__logo">
         <img className="competencesimg" src={html} alt="html-logo" />
+        <li className="competencesGenerales_margeArtificielle"></li>
         <img className="competencesimg" src={css} alt="css-logo" />
+        <li className="competencesGenerales_margeArtificielle"></li>
         <img className="competencesimg"  src={js} alt="js-logo" />
+        <li className="competencesGenerales_margeArtificielle"></li>
         <img className="competencesimg"  src={react} alt="react-logo" />
-        <img className="competencesimg"  src={python} alt="python-logo" />  
+        <li className="competencesGenerales_margeArtificielle"></li>
+        <img className="competencesimg"  src={python} alt="python-logo" />
+        <li className="competencesGenerales_margeArtificielle"></li>  
         <img className="competencesimg"  src={php} alt="php-logo" />
+        <li className="competencesGenerales_margeArtificielle"></li>
         <img className="competencesimg"  src={sql} alt="sql-logo" />
+        <li className="competencesGenerales_margeArtificielle"></li>
         <img className="competencesimg"  src={linux} alt="linux-logo" />
       </div>
     </Segment>

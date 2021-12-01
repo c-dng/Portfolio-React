@@ -1,45 +1,10 @@
-// h1.ui.icon.center.aligned.header {
-//     color: rebeccapurple;
-//     background-color: rosybrown;
-// }
-
-// .projets {
-//     margin-top: 1.5em;
-// }
-
-// ul.projects_itemsWebsite {
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: center;
-// }
-
-// p.projet_name {
-//     display: flex;
-//     justify-content: center;
-//     font-weight: bold;
-//     font-size: 1.5em;
-//     margin-bottom: 0;
-
-//     border-top-left-radius: 1rem;
-//     border-top-right-radius: 1rem;
-// }
-
-// img.projet_screenshot{
-//     border-bottom-left-radius: 1rem;
-//     border-bottom-right-radius: 1rem;
-// }
-
-img.projet_screenshot {
-    height: 150px;
-    width: 200px; 
+.projets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-
-// p.projet_description {
-//     display: flex;
-//     justify-content: center;
-// }
-
-// li.projets_margeArtificielle {
-//     margin-left: 5em;
-// }
+li.projets_margeArtificielle {
+    list-style: none;
+    padding-right: 1em;
+}
