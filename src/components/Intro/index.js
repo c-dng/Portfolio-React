@@ -10,11 +10,11 @@ const Intro = () => (
     </Header>
     <Container text>
             <p>
-                Bonjour ! Je m'appelle Camille Duong, je suis développeuse web front-end spécialisée React.
+                Je m'appelle Camille Duong, passionnée par l'informatique et les nouvelles technologies.
             </p>
             <p>
-                Passionnée par le développement web depuis de nombreuses années, j'ai décidé de me lancer dans le grand bain et de faire une reconversion professionnelle.
-                J'ai donc entammé une formation de développeur web full stack de 5 mois avec l'école O'Clock, ensuite j'ai poursuivi mon apprentissage par une formation sur Python.
+                Issue d'une reconversion professionnelle, j’ai souhaité m’orienter dans le monde de la tech et d'en faire mon métier.
+                Dans un premier temps en autodidacte, j'ai étudié le HTML et le CSS, puis j'ai décidé de me professionnaliser en suivant la formation O'Clock et ensuite j'ai poursuivi mon apprentissage par une formation sur Python.
             </p>
             <p>
                 Je continue à apprendre en travaillant sur des projets personnels pour améliorer mes compétences.
