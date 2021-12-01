@@ -15,7 +15,7 @@ const Intro = () => (
                 Issue d'une reconversion professionnelle, j'ai entammé une formation de développeur web full stack de 5 mois avec l'école O'Clock, ensuite j'ai poursuivi mon apprentissage par une formation sur Python.
             </p>
             <p>
-                Je continue à apprendre travaillant sur des projets personnels pour améliorer mes compétences.
+                Je continue à apprendre en travaillant sur des projets personnels pour améliorer mes compétences.
             </p>
     </Container>
   </div>
