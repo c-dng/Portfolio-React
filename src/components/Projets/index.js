@@ -2,7 +2,7 @@ import React from 'react';
 import Kasu from './front-kasu-desktop.png';
 import Snk from './snk.png';
 
-import { Segment, Header, Icon } from 'semantic-ui-react'
+import { Segment, Header } from 'semantic-ui-react'
 
 import './projets.scss';
 

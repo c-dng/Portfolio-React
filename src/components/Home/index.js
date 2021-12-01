@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Button, Icon, Image } from 'semantic-ui-react';
+import { Header, Image } from 'semantic-ui-react';
 import './home.scss';
 import photo from './photo.png';
 
