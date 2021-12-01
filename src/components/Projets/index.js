@@ -90,7 +90,7 @@ const Projets = () => (
     </Card>
 
     <li className="projects_margeArtificielle"></li>
-    
+
     <Card>
       <Image src={Got} alt="project5" a hwrapped ui={false} />
       <Card.Content>
@@ -153,7 +153,7 @@ const Projets = () => (
           <span className='date'>Mai 2021</span>
         </Card.Meta>
         <Card.Description>
-          Un projet made in PHP pour assimiler le design pattern MVC. 
+          Un projet fabriqué en PHP pour assimiler le design pattern MVC. 
         </Card.Description>
       </Card.Content>
       <Card.Content extra>
