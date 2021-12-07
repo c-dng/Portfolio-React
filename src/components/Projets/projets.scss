@@ -4,7 +4,32 @@
     justify-content: center;
 }
 
-li.projects_margeArtificielle {
+h2 {
+    text-align: center;
+}
+
+.project_1 {
+    display: flex;
+    width: 100%;
+}
+
+li._margeArtificielle {
     list-style: none;
-    padding-right: 7em;
+    padding-right: 3em;
+}
+
+.project__details__title {
+    font-size: 1.7em;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.project__content__description {
+    font-size: 1.5em;
+}
+
+.project__content__link {
+    font-size: 1.5em;
 }

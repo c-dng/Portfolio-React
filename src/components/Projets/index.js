@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import Carousel from 'react-bootstrap/Carousel';
 
 // import images
-import Kasu from './kasu.png';
+import Kasu from './kasu.jpeg';
 import Orecipe from './orecipe.png';
 import Got from './got.png';
 import RandomColor from './randomcolor.png';
@@ -9,158 +11,44 @@ import Chat from './chat.png';
 import Converter from './converter.png';
 import Pokedex from './pokedex.png';
 import Snk from './snk.png';
-
-import { Card,  Icon, Image } from 'semantic-ui-react'
+import { Link } from 'react-router-dom';
+import { Card, Icon, Image } from 'semantic-ui-react';
 import './projets.scss';
 
-const Projets = () => (
-  
-  <div className="projects">
-      <Card>
-        <Image src={Kasu} alt="project1" a hwrapped ui={false} />
-        <Card.Content>
-          <Card.Header>Kasu</Card.Header>
-          <Card.Meta>
-            <span className='date'>Juillet - Août 2021</span>
-          </Card.Meta>
-          <Card.Description>
-            Site de prêt de mangas entre particuliers,
-            Projet de fin d'études dans le cadre de la formation intensive de Développeur Web Fullstack.
-            L'équipe était composée de 3 développeurs Front-End React.JS et 2 développeuses Back-End Symfony).
-          </Card.Description>
-        </Card.Content>
-        <Card.Content extra>
-          #React #Redux #Symfony5 #MySQL
-        </Card.Content>
-    </Card>
+export default function Projects() {
+  return (
+    <div class="projects_container">
+      <h2>PROJETS</h2>
 
-  <li className="projects_margeArtificielle"></li>
-  
-    <Card>
-      <Image src={Orecipe} alt="project2" a hwrapped ui={false} />
-      <Card.Content>
-        <Card.Header>O'Recipe </Card.Header>
-        <Card.Meta>
-          <span className='date'>Juillet 2021</span>
-        </Card.Meta>
-        <Card.Description>
-          Ce projet est un livre de recettes réalisé avec React et Redux. Un utilisateur peut se connecter et marquer certaines recettes comme favorites.
-        </Card.Description>
-      </Card.Content>
-      <Card.Content extra>
-          #React #Redux #Authentication #Jest #Enzyme
-      </Card.Content>
-    </Card>
+      <div style={{ display: 'block', width: 1200, padding: 30 }}>
 
-  <li className="projects_margeArtificielle"></li>
-  
-    <Card>
-      <Image src={Chat} alt="project3" a hwrapped ui={false} />
-      <Card.Content>
-        <Card.Header>Tchat</Card.Header>
-        <Card.Meta>
-          <span className='date'>Juillet 2021</span>
-        </Card.Meta>
-        <Card.Description>
-          Petit projet fabriqué en React.JS pour découvrir les webSockets et le système d'authentification.
-        </Card.Description>
-      </Card.Content>
-      <Card.Content extra>
-        #React #Redux #Authentication #WebSocket 
-      </Card.Content>
-    </Card>
+        <div class="project_1">
 
-    <li className="projects_margeArtificielle"></li>
+          <Carousel>
+            <Carousel.Item interval={1500}>
+              <img
+                className="d-block w-150"
+                src={Kasu}
+                alt="Image One"
+              />
+            </Carousel.Item>
+          </Carousel>
 
-    <Card>
-      <Image src={Converter} alt="project4" a hwrapped ui={false} />
-      <Card.Content>
-        <Card.Header>Convertisseur</Card.Header>
-        <Card.Meta>
-          <span className='date'>Juillet 2021</span>
-        </Card.Meta>
-        <Card.Description>
-          Premier projet réalisé avec React pour découvrir des composants avec état. L'utilisateur peut modifier le montant de base et sélectionner ou rechercher la devise qu'il souhaite.
-        </Card.Description>
-      </Card.Content>
-      <Card.Content extra>
-          #React #State #ControlledComponents 
-      </Card.Content>
-    </Card>
+          <li className="_margeArtificielle"></li>
 
-    <li className="projects_margeArtificielle"></li>
+          <div class="details">
+            <h3 class="project__details__title">Kasu, site de prêt de mangas entre particuliers.</h3>
 
-    <Card>
-      <Image src={Got} alt="project5" a hwrapped ui={false} />
-      <Card.Content>
-        <Card.Header>GOT Encyclopédie</Card.Header>
-        <Card.Meta>
-          <span className='date'>Juin 2021</span>
-        </Card.Meta>
-        <Card.Description>
-          Projet MVC simple réalisé pour s'entraîner sur le framework Lumens. Le CSS est personnalisé.
-        </Card.Description>
-      </Card.Content>
-      <Card.Content extra>
-          #PHP #Lumens #Eloquent #MVC 
-      </Card.Content>
-  </Card>
+            <p class="project__content__description">
+              Projet de fin d'études dans le cadre de la formation intensive de Développeur Web Fullstack.
+            </p>
+            <div className="field"></div>
+            <p class="project__content__link">Voir le projet sur Github</p>
+            <Link to ="www.google.com">Voir le projet sur Github</Link>
+          </div>
 
-  <li className="projects_margeArtificielle"></li>
-
-    <Card>
-      <Image src={Snk} alt="project6" a hwrapped ui={false} />
-      <Card.Content>
-        <Card.Header>Attaque des Titans</Card.Header>
-        <Card.Meta>
-          <span className='date'>Juin 2021</span>
-        </Card.Meta>
-        <Card.Description>
-          Site basé sur l'univers du célèbre manga : "L'attaque des Titans". Garanti sans spoils.
-        </Card.Description>
-      </Card.Content>
-      <Card.Content extra>
-        #PHP #MVC #BDD #BOOTSTRAP
-      </Card.Content>
-    </Card>
-
-  <li className="projects_margeArtificielle"></li>
-  
-  <Card>
-      <Image src={RandomColor} alt="project7" a hwrapped ui={false} />
-      <Card.Content>
-        <Card.Header>Couleurs Aléatoires</Card.Header>
-        <Card.Meta>
-          <span className='date'>Mai 2021</span>
-        </Card.Meta>
-        <Card.Description>
-          Petit projet réalisé pour s'entrainer avec React et Redux. Chaque fois que l'utilisateur utilise un bouton de couleur, 1 ou 2 couleurs aléatoires sont générées et le dégradé linéaire est mis à jour. La direction du gradient linéaire peut également être modifiée.
-        </Card.Description>
-      </Card.Content>
-      <Card.Content extra>
-        #React #Redux #LinearGradient 
-      </Card.Content>
-  </Card>
-
-  <li className="projects_margeArtificielle"></li>
-  
-  <Card>
-      <Image src={Pokedex} alt="project8" a hwrapped ui={false} />
-      <Card.Content>
-        <Card.Header>Pokedex</Card.Header>
-        <Card.Meta>
-          <span className='date'>Mai 2021</span>
-        </Card.Meta>
-        <Card.Description>
-          Un projet fabriqué en PHP pour assimiler le design pattern MVC. 
-        </Card.Description>
-      </Card.Content>
-      <Card.Content extra>
-        #PHP #MVC #BDD
-      </Card.Content>
-  </Card>
-
-  </div>
-);
-
-export default Projets;
+        </div>
+      </div>
+    </div>
+  );
+}
