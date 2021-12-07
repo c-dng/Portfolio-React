@@ -23,5 +23,6 @@ Réalisé en mobile-first.
 
 # V2
 Dans une V2, j'envisage de pouvoir inclure un mode nuit/jour grâce à un toggle.
+Finaliser le formulaire.
 
 Merci d'être passé par là.. :)
